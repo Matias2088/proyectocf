@@ -22,10 +22,6 @@ public class Venta {
         }
     }
 
-    public double getTotal(){
-        return total;
-    }
-
     public void mostrarVenta(){
         System.out.println("Productos vendidos: ");
         for (Producto producto : productosVendidos){

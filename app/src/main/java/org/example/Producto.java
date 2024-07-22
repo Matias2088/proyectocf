@@ -33,17 +33,13 @@ public class Producto {
         return precio;
     }
 
-    public void setPrecio(double precio) {
-        this.precio = precio;
-    }
+
 
     public int getCantidad() {
         return cantidad;
     }
 
-    public void setCantidad(int cantidad) {
-        this.cantidad = cantidad;
-    }
+
 
     public void agregarCantidad( int cantidad){
         this.cantidad += cantidad;
